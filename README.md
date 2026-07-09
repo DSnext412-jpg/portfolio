@@ -359,8 +359,6 @@ Portfolio Running Successfully 🚀
 
 ---
 
-# 「 END OF TRANSMISSION 」
-
 ### Developed by
 
 # ⚡ DIPAK SONAWANE ⚡
