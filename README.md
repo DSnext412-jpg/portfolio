@@ -359,7 +359,6 @@ Portfolio Running Successfully 🚀
 
 ---
 
-### Developed by
 
 # ⚡ DIPAK SONAWANE ⚡
 
