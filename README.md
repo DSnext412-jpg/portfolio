@@ -355,10 +355,8 @@ Portfolio Running Successfully 🚀
 
 <img src="https://streak-stats.demolab.com?user=DSnext412-jpg&theme=transparent&hide_border=true"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DSnext412-jpg&theme=react-dark"/>
 
 ---
-
 
 # ⚡ DIPAK SONAWANE ⚡
 
