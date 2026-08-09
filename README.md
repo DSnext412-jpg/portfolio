@@ -2,7 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:020024,30:090979,70:00D4FF,100:7F00FF&text=PORTFOLIO%20//%20NEXUS&fontAlign=50&fontAlignY=40&fontSize=60&fontColor=ffffff&animation=fadeIn"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Initializing+Developer+Interface...;Loading+Projects...;Connecting+AI+Modules...;Welcome+Dipak+Sonawane...;System+Ready+✓"/>
 
 </div>
 
