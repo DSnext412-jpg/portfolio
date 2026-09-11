@@ -31,15 +31,15 @@ export const navItems = [
 
 export const profile: Profile = {
   name: 'Dipak Sonawane',
-  title: 'AI Engineer & Developer',
+  title: 'AI Orchestrator & Developer',
   email: 'dipaksonwane412@gmail.com',
   phone: '+91-9322626203',
   instagram: 'https://www.instagram.com/ds_412_/',
   location: 'Nashik, Maharashtra',
-  bio: 'Building intelligent solutions through code, curiosity, and software development. Driven by innovation, logic, and lifelong learning.',
-  fullBio: `I'm also good at C/Python programming, and currently learning Data Structures and Algorithms to strengthen my problem-solving, also learning new technologies to strengthen my technical foundation.
+  bio: 'Building intelligent solutions through code, curiosity, and development. Driven by innovation, logic, and lifelong learning.',
+  fullBio: `I'm good at C/Python programming, and currently learning Data Structures and Algorithms to strengthen my problem-solving, also learning new technologies to strengthen my technical foundation.
 
-Other than coding, I'm a skilled video editor and use Photoshop to design eye-catching graphics and photos.
+Other than coding, I do video editing and Photoshop, design, webpages, etc of things.
 
 I also worked as a SQL/Python developer and am good with AI products, where I focus on a clear future with good communication and delivering positive experiences.
 
