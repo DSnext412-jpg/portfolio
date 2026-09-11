@@ -51,7 +51,7 @@ const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            AI Engineer & Python Developer
+            AI Orchestrator & Developer
           </p>
         </motion.div>
 
@@ -78,7 +78,7 @@ const About = () => {
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <h3 className="text-2xl font-bold mb-4">AI Engineer & Python Developer</h3>
+            <h3 className="text-2xl font-bold mb-4">AI Orchestrator & Developer</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed whitespace-pre-line">
               {profile.bio}
             </p>
