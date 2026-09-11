@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="blob:https://capsule-render.vercel.app/2264593a-e483-49b2-ab17-f273e0360576"/>
+<img src="https://capsule-render.vercel.app/2264593a-e483-49b2-ab17-f273e0360576](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=PORTFOLIO)"/>
 
 
 </div>
