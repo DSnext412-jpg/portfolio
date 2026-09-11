@@ -33,7 +33,6 @@ export const profile: Profile = {
   name: 'Dipak Sonawane',
   title: 'AI Orchestrator & Developer',
   email: 'dipaksonwane412@gmail.com',
-  phone: '+91-9322626203',
   instagram: 'https://www.instagram.com/ds_412_/',
   location: 'Nashik, Maharashtra',
   bio: 'Building intelligent solutions through code, curiosity, and development. Driven by innovation, logic, and lifelong learning.',
@@ -46,9 +45,7 @@ I also worked as a SQL/Python developer and am good with AI products, where I fo
 I'm good to go to connect with professionals, learn from the tech community, and explore opportunities to grow as a developer and creator.`,
   linkedIn: 'https://www.linkedin.com/in/dipak-sonawane-511b5323a/',
   github: 'https://github.com/DSnext412-jpg',
-  resumeUrl: '/resume.pdf',
   profileImage: '/images/profile.png',
-  signature: '/images/signature.png',
   status: 'Available for Hire',
   yearsOfExperience: 5,
 }
