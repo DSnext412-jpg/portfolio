@@ -1,4 +1,4 @@
-// src/data/statistics.ts
+
 export interface Statistic {
   id: string
   label: string
@@ -41,7 +41,7 @@ export const statistics: Statistic[] = [
   {
     id: 'commits',
     label: 'Total Commits',
-    value: 1200,
+    value: 0,
     suffix: '+',
     icon: 'git-commit',
     color: 'from-green-500 to-emerald-400',
