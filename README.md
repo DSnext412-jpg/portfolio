@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="[https://capsule-render.vercel.app/api?type=waving&height=280&color=0:020024,30:090979,70:00D4FF,100:7F00FF&text=PORTFOLIO%20//%20NEXUS&fontAlign=50&fontAlignY=40&fontSize=60&fontColor=ffffff&animation=fadeIn](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=PORTFOLIO)"/>
+<img src="blob:https://capsule-render.vercel.app/2264593a-e483-49b2-ab17-f273e0360576"/>
 
 
 </div>
