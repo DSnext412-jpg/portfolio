@@ -62,15 +62,20 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="relative">
-              <div className="w-64 h-64 mx-auto rounded-2xl overflow-hidden glassmorphism">
-                <img
-                  src={profile.profileImage}
-                  alt={profile.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -inset-4 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-2xl blur-xl -z-10" />
-            </div>
+  <motion.div
+    whileHover={{ scale: 1.03 }}
+    whileTap={{ scale: 0.98 }}
+    className="w-[340px] h-[500px] mx-auto rounded-2xl overflow-hidden glassmorphism border border-primary/40 shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:border-primary/70 transition-all duration-500 cursor-pointer"
+  >
+    <img
+      src={profile.profileImage}
+      alt={profile.name}
+      className="w-full h-full object-cover"
+    />
+  </motion.div>
+  <div className="absolute -inset-6 bg-gradient-to-r from-primary/30 via-secondary/20 to-primary/30 rounded-2xl blur-xl -z-10 animate-pulse" />
+  <div className="absolute -inset-1 bg-gradient-to-r from-primary/50 to-secondary/50 rounded-2xl blur-md -z-10 opacity-60 hover:opacity-100 transition-opacity duration-500" />
+</div>
           </motion.div>
 
           <motion.div
