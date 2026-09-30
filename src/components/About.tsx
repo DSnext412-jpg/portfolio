@@ -1,29 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { 
-  Code, 
-  Database, 
-  Brain, 
-  FileCode, 
-  Globe, 
-  Users, 
-  Lightbulb, 
-  Clock, 
-  Target, 
-  Eye, 
-  Sparkles, 
-  BookOpen, 
-  FileText 
-} from 'lucide-react'
-import { profile } from '../data/profile'
+import { Code, Database, Brain, FileCode, Globe, Users, Lightbulb, Clock, Target, Eye, Sparkles, BookOpen, FileText } from 'lucide-react'
+import { profile } from '../data/profile.ts'
 
-interface SkillItem {
-  name: string
-  icon: React.ComponentType<{ className?: string }>
-}
-
-const coreSkills: SkillItem[] = [
+const coreSkills = [
   { name: 'Python', icon: Code },
   { name: 'SQL (MySQL, PostgreSQL, Firebase, MongoDB)', icon: Database },
   { name: 'C', icon: Code },
@@ -38,7 +19,7 @@ const coreSkills: SkillItem[] = [
   { name: 'Computer Networks', icon: Globe },
 ]
 
-const softSkills: SkillItem[] = [
+const softSkills = [
   { name: 'Problem Solving', icon: Lightbulb },
   { name: 'Critical Thinking', icon: Brain },
   { name: 'Communication', icon: Users },
@@ -53,17 +34,12 @@ const softSkills: SkillItem[] = [
   { name: 'Documentation', icon: FileText },
 ]
 
-const About: React.FC = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  })
+const About = () => {
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
 
   return (
     <section id="about" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Header Section */}
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -79,7 +55,6 @@ const About: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Profile Image & Bio Grid */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -87,19 +62,14 @@ const About: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="relative">
-              <motion.div
-                whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.98 }}
-                className="w-[340px] h-[500px] mx-auto rounded-2xl overflow-hidden glassmorphism border border-primary/40 shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:border-primary/70 transition-all duration-500 cursor-pointer"
-              >
+              <div className="w-64 h-64 mx-auto rounded-2xl overflow-hidden glassmorphism">
                 <img
                   src={profile.profileImage}
                   alt={profile.name}
                   className="w-full h-full object-cover"
                 />
-              </motion.div>
-              <div className="absolute -inset-6 bg-gradient-to-r from-primary/30 via-secondary/20 to-primary/30 rounded-2xl blur-xl -z-10 animate-pulse" />
-              <div className="absolute -inset-1 bg-gradient-to-r from-primary/50 to-secondary/50 rounded-2xl blur-md -z-10 opacity-60 hover:opacity-100 transition-opacity duration-500" />
+              </div>
+              <div className="absolute -inset-4 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-2xl blur-xl -z-10" />
             </div>
           </motion.div>
 
@@ -118,7 +88,6 @@ const About: React.FC = () => {
           </motion.div>
         </div>
 
-        {/* Core Skills Badge Container */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -133,7 +102,7 @@ const About: React.FC = () => {
                   key={skill.name}
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={inView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ duration: 0.4, delay: 0.05 * (index + 1) }}
+                  transition={{ duration: 0.4, delay: 0.1 * (index + 1) }}
                   className="glassmorphism rounded-xl px-5 py-3 flex items-center gap-2"
                 >
                   <SkillIcon className="h-4 w-4 text-primary" />
@@ -144,7 +113,6 @@ const About: React.FC = () => {
           </div>
         </motion.div>
 
-        {/* Soft Skills Badge Container */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -160,7 +128,7 @@ const About: React.FC = () => {
                   key={skill.name}
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={inView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ duration: 0.4, delay: 0.05 * (index + 1) }}
+                  transition={{ duration: 0.4, delay: 0.1 * (index + 1) }}
                   className="glassmorphism rounded-xl px-5 py-3 flex items-center gap-2"
                 >
                   <SkillIcon className="h-4 w-4 text-secondary" />
@@ -171,7 +139,6 @@ const About: React.FC = () => {
           </div>
         </motion.div>
 
-        {/* Quote Block */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -186,7 +153,6 @@ const About: React.FC = () => {
             <div className="text-4xl text-primary/20 absolute -bottom-6 right-4 font-serif">"</div>
           </div>
         </motion.div>
-
       </div>
     </section>
   )
