@@ -55,26 +55,6 @@ const About = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <div className="relative">
-              <div className="w-64 h-64 mx-auto rounded-2xl overflow-hidden glassmorphism">
-                <img
-                  src={profile.profileImage}
-                  alt={profile.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -inset-4 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-2xl blur-xl -z-10" />
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
