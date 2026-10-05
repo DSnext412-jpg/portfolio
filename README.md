@@ -47,7 +47,8 @@ Education:
 
 Specialization:
     Python
-    React
+    JAVA
+    SQL
     AI
     Machine Learning
 
@@ -56,24 +57,6 @@ Current Mission:
 
 System Status:
     ACTIVE
-```
-
----
-
-# ⚡ POWER LEVEL
-
-```text
-Python           ████████████████████ 100%
-
-React            █████████████████░░░ 90%
-
-Machine Learning ██████████████░░░░░░ 75%
-
-Problem Solving  ███████████████████░ 95%
-
-Coffee           ████████████████████ ∞
-
-Sleep            ██░░░░░░░░░░░░░░░░░░ 8%
 ```
 
 ---
@@ -152,19 +135,6 @@ Never stop improving.
 
 ```
 ┌─────────────────────────────────────┐
-
-      Frontend
-
-React
-
-TypeScript
-
-Tailwind CSS
-
-Framer Motion
-
-──────────────────────────────────────
-
       Backend
 
 Python
